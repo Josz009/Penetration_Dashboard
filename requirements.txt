@@ -1,0 +1,6 @@
+
+flask
+nmap
+msfrpc
+reportlab
+flask-socketio

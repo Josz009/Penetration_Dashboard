@@ -1,0 +1,10 @@
+
+{% extends "base.html" %}
+{% block content %}
+<h1>Welcome to the Penetration Testing Dashboard</h1>
+<form action="/api/run_scan" method="post">
+    <label for="target">Target:</label>
+    <input type="text" id="target" name="target" required>
+    <button type="submit">Run Scan</button>
+</form>
+{% endblock %}
