@@ -1,7 +1,6 @@
 
 flask
 python-nmap
-msfrpc
 reportlab
 flask-socketio
 gunicorn
