@@ -4,3 +4,4 @@ nmap
 msfrpc
 reportlab
 flask-socketio
+gunicorn
