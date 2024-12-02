@@ -1,6 +1,6 @@
 
 flask
-nmap
+python-nmap
 msfrpc
 reportlab
 flask-socketio
