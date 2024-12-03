@@ -1,14 +1,13 @@
 
-import msfrpc
-from app.config import Config
+#import msfrpc
+# Metasploit functionality disabled for deployment testing.
 
-def run_metasploit_exploit(module, target, payload):
-    client = msfrpc.Msfrpc({})
-    client.login(Config.METASPLOIT_USER, Config.METASPLOIT_PASS)
-
-    exploit = client.call('module.execute', ['exploit', module, {
-        'RHOSTS': target,
-        'PAYLOAD': payload
-    }])
-
-    return exploit
+def run_metasploit_exploit(target, payload):
+    """
+    Placeholder function for Metasploit exploit integration.
+    Returns a mock response indicating that Metasploit is disabled.
+    """
+    return {
+        "status": "error",
+        "message": "Metasploit functionality is temporarily disabled for deployment."
+    }
